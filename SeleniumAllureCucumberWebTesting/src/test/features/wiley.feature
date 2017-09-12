@@ -2,9 +2,8 @@
 Feature: Wiley website testing
 
   Scenario: Home page testing
-    Given open the Wiley "Home page"
+    Given open the Wiley "Home" page
     Then following item is displayed in top navigation menu:
-      | link |
       | Home |
       | Subjects |
       | About Wiley |
@@ -38,12 +37,12 @@ Feature: Wiley website testing
     And "Students" item has different style
     And "Students" item is clickable
     Then click at "Home" link at the top navigation menu
-
+#
   Scenario: Home page updates testing
     Given open the Wiley "Home" page
-    Then find “Sign up to receive Wiley updates” line and click arrow button
+    Then find “Sign up to receive Wiley updates” line and click "Arrow" button
     Then check that alert appeared with text "Please enter email address"
-    Then enter invalid email and click arrow button
+    Then enter "invalid" email and click Arrow button
     Then check that alert appeared with text "Invalid email address."
 
   Scenario: Search engine testing
@@ -53,7 +52,7 @@ Feature: Wiley website testing
     Then click random item link
     Then check that page with header equal to the title you clicked is displayed
     Then click “Home” link at the top navigation menu
-    Then click “Institutions” icon under Resources sub-header
+    Then click "Institutions" icon under Resources sub-header
     Then check "https://edservices.wiley.com/" is opened in new window
 
 
