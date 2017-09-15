@@ -1,0 +1,30 @@
+experimental.fields.HeadMenuFields;;RESOURCES_PATTERN;//*[@id="links-site"]//a[contains(., "%s")]
+experimental.fields.HeadMenuFields;RESOURCES_PATTERN;HOME_BUTTON;Home
+experimental.fields.HeadMenuFields;RESOURCES_PATTERN;SUBJECT_BUTTON;Subjects
+experimental.fields.HeadMenuFields;RESOURCES_PATTERN;ABOUT_WILEY_BUTTON;About Wiley
+experimental.fields.HeadMenuFields;RESOURCES_PATTERN;CONTACT_US_BUTTON;Contact Us
+experimental.fields.HeadMenuFields;RESOURCES_PATTERN;HELP_BUTTON;Help
+experimental.fields.HeadMenuFields;;SEARCH_INPUT;//*[@id="query"]
+experimental.fields.HeadMenuFields;;SEARCH_ICON;//*[@id="query"]/following-sibling::input[@type="submit"]
+experimental.fields.HomePageFieldsHead;;RESOURCES_PATTERN;//*[@id=\"homepage-links\"]//a[contains(., \"%s\")]
+experimental.fields.HomePageFieldsHead;RESOURCES_PATTERN;AUTHORS_BUTTON;Authors
+experimental.fields.HomePageFieldsHead;RESOURCES_PATTERN;LIBRARIANS_BUTTON;Librarians
+experimental.fields.HomePageFieldsHead;RESOURCES_PATTERN;BOOKSELLERS_BUTTON;Booksellers
+experimental.fields.HomePageFieldsHead;RESOURCES_PATTERN;INSTRUCTORS_BUTTON;Instructors
+experimental.fields.HomePageFieldsHead;RESOURCES_PATTERN;CORPORATIONS_BUTTON;Corporations
+experimental.fields.HomePageFieldsHead;RESOURCES_PATTERN;STUDENT_BUTTON;Students
+experimental.fields.HomePageFieldsHead;RESOURCES_PATTERN;SOCIETIES_BUTTON;Societies
+experimental.fields.HomePageFieldsHead;RESOURCES_PATTERN;CONFERENCES_BUTTON;Conferences
+experimental.fields.HomePageFieldsHead;RESOURCES_PATTERN;INSTITUTIONS_BUTTON;Institutions
+experimental.fields.HomePageFieldsHead;;UPDATE_ARROW;//*[@id="EmailAddress"]/following-sibling::*/button
+experimental.fields.HomePageFieldsHead;;EMAIL_UPDATE_INPUT;//*[@id="EmailAddress"]
+experimental.fields.StudentsPageFieldsHead;;RESOURCES_PATTERN;//*[@id="sidebar"]//ul[@*="autonavLevel1"]/li/*[(name()="span" or name()="a") and contains(.,"%s")]
+experimental.fields.StudentsPageFieldsHead;RESOURCES_PATTERN;AUTHORS_BUTTON;Authors
+experimental.fields.StudentsPageFieldsHead;RESOURCES_PATTERN;LIBRARIANS_BUTTON;Librarians
+experimental.fields.StudentsPageFieldsHead;RESOURCES_PATTERN;BOOKSELLERS_BUTTON;Booksellers
+experimental.fields.StudentsPageFieldsHead;RESOURCES_PATTERN;INSTRUCTORS_BUTTON;Instructors
+experimental.fields.StudentsPageFieldsHead;RESOURCES_PATTERN;STUDENT_BUTTON;Students
+experimental.fields.StudentsPageFieldsHead;RESOURCES_PATTERN;SOCIETIES_BUTTON;Societies
+experimental.fields.StudentsPageFieldsHead;RESOURCES_PATTERN;CPARTNERS_BUTTON;Corporate Partners;
+experimental.fields.SearchResultPageFieldsHead;;SEARCH_RESULTS_BLOCK;//*[@id="search-results"]
+experimental.fields.SearchResultPageFieldsHead;;SEARCH_RESULT_ITEMS;//*[@id="search-results"]/div/div[@*="product-title"]/a
